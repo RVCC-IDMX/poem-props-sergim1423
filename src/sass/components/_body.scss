@@ -1,0 +1,9 @@
+@use "../abstracts/mixins" as mixins;
+
+body {
+//   @include mixins.simple-grid(2rem);
+  width: min(100% - 2rem, 60ch);
+  margin-inline:auto;
+//   font-family: var(--font-sans);
+color: #000;
+}

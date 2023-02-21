@@ -1,0 +1,13 @@
+@use "../abstracts/mixins" as mixins;
+
+.footer{
+    @include mixins.simple-grid(1rem);
+    place-content: center;
+
+}
+.copyright,
+.credits{
+    text-align: center;
+    font-size: var(--font-size-0);
+    margin-inline:auto;
+}

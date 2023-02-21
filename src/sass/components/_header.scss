@@ -1,0 +1,53 @@
+@use "../abstracts/mixins" as mixins;
+
+    .hero {
+
+        line-height: var(--font-lineheight-1);
+        font-size: var(--font-size-fluid-2);
+        font-weight: var(--font-weight-9);
+        font-family: var(--font-sans);
+      
+      
+        @include mixins.simple-grid(1rem);
+        grid-template: "container";
+      
+        > * {
+          grid-area: container;
+          margin-inline: auto;
+        }
+
+        &__title{
+            font-size: var(--font-size-fluid-3);
+            color: var(--gray-6);
+            text-align: center;
+            z-index: 1;
+            padding-top: 15%;
+            height: max-content;
+
+            
+        }
+        &__author{
+            color: var(--gray-5);
+            font-size: var(--font-size-fluid-1);
+            display: grid;
+            grid-auto-flow: column;
+            margin-left:auto;
+            width:0%;
+            z-index: 0;
+            padding-top: 30%;
+            height: max-content;
+    }
+}
+
+    .hero-figure {
+        @include mixins.simple-grid(1rem);
+      
+        > * {
+          display: block;
+          margin-inline: auto;
+        }
+        
+        &__img {
+          border-radius: var(--radius-3);
+        }
+      }
