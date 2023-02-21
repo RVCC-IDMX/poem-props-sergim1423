@@ -3,3 +3,10 @@
 @use "../components/article";
 @use "../components/body";
 @use "../components/footer";
+@use "../base/typography" as type;
+
+
+body{
+    font-family: type.$font;
+
+}

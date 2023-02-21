@@ -3,6 +3,7 @@
 .footer{
     @include mixins.simple-grid(1rem);
     place-content: center;
+    color: var(--gray-6);
 
 }
 .copyright,
