@@ -31,4 +31,9 @@ Use this as the "Publish command" if needed by hosting services such as Netlify.
 <small>The starter was inspired by [11ty Sass Skeleton](https://github.com/5t3ph/11ty-sass-skeleton) by [@5t3ph](https://twitter.com/5t3ph)</small>
 
 Photo by <a href="https://unsplash.com/@kenrickmills?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kenrick Mills</a> on <a href="https://unsplash.com/wallpapers/nature/sky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Github <a href="https://github.com/sergim1423">Sergi Manolov</a>
+Favicon <a target="_blank" href="https://icons8.com/icon/42199/globe">Globe</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+
   
